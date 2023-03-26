@@ -1,4 +1,4 @@
 function Sidebar() {
-  return <div></div>;
+  return <div>Hi</div>;
 }
 export default Sidebar;

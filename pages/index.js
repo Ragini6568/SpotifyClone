@@ -3,8 +3,10 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Sidebar />
+    <div className="bg-black h-screen overflow-hidden">
+      <main>
+        <Sidebar />
+      </main>
     </div>
   );
 }
